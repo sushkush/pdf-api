@@ -9,7 +9,7 @@ public class PdfMetadata {
     private String createdDate;
     private String modifiedDate;
     private String submittedAt;
-    private boolean processing;
+    
 
     // Getters and setters 
     
@@ -64,12 +64,6 @@ public class PdfMetadata {
          this.submittedAt = submittedAt; 
     }
 
-    public boolean isProcessing() {
-         return processing; 
-    }
-    public void setProcessing(boolean processing) {
-         this.processing = processing; 
-    }
 }
 
 

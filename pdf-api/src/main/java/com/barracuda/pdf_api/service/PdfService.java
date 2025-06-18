@@ -60,7 +60,6 @@ public class PdfService {
 
         PdfMetadata pdfMetadata = new PdfMetadata();
         pdfMetadata.setSha256(hash);
-        pdfMetadata.setProcessing(true);
         metadataStore.put(hash, pdfMetadata);
     }
 

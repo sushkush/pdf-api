@@ -40,8 +40,6 @@ public class PdfController {
         PdfMetadata data = pdfService.getMetadata(hash);
         if (data == null) {
             return ResponseEntity.status(404).body("Record not found.");
-        } else if (data.isProcessing()) {
-            return ResponseEntity.ok("Metadata is still being processed...");
         } else {
             return ResponseEntity.ok(data);
         }

@@ -1,0 +1,6 @@
+1. Build the JAR Locally ( eg:-target/pdf-api-0.0.1-SNAPSHOT.jar)
+2. Launch a Linux Server (e.g., AWS EC2)
+3. Install Java on Server
+4. Transfer JAR File to Server
+5. Run the Application
+6. Test It (Use Postman or curl)
